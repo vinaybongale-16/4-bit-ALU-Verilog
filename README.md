@@ -58,7 +58,7 @@ The ALU performs basic arithmetic and logical operations based on a 3-bit select
 │
 ├── alu_4bit.v
 ├── alu_4bit_tb.v
-├── alu_waveform.png
+├── alu_waveform_.png
 ├── README.md
 └── LICENSE
 ```
