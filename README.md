@@ -35,8 +35,6 @@ The ALU performs basic arithmetic and logical operations based on a 3-bit select
 
 ## Block Diagram
 
-## Block Diagram
-
 ```text
                          4-BIT ALU
                              |
