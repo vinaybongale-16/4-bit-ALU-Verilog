@@ -35,21 +35,22 @@ The ALU performs basic arithmetic and logical operations based on a 3-bit select
 
 ## Block Diagram
 
+## Block Diagram
+
 ```text
-                 4-BIT ALU
-                     |
-          +----------+----------+
-          |                     |
-   Arithmetic Unit          Logic Unit
-          |                     |
-   +------+------+        +-----+-----+
-   |      |      |        |     |     |
-  ADD    SUB    INC      AND    OR   XOR
-                       + NOT
-          |
-          +----------+
-                     |
-                4-bit Result
+                         4-BIT ALU
+                             |
+                 +-----------+-----------+
+                 |                       |
+          Arithmetic Unit            Logic Unit
+                 |                       |
+        +--------+--------+       +------+------+
+        |        |        |       |      |      |      |
+       ADD      SUB      INC     AND     OR     XOR    NOT
+        |        |        |       |      |      |      |
+        +--------+--------+-------+------+------+------+
+                             |
+                         4-bit Result
 ```
 
 ## Project Structure
