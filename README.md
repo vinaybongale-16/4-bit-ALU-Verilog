@@ -77,7 +77,7 @@ The testbench applies different input combinations and select signals to verify 
 
 ### EPWave Simulation Waveform
 
-![4-Bit ALU EPWave Simulation](alu_waveform.png)
+![4-Bit ALU EPWave Simulation](alu_waveform_.png)
 
 ## Simulation Result
 
